@@ -28,12 +28,13 @@ for (let i = 3; i <6; i++) {
 
 // 1.c. TODO: Write a for loop to console.log EVEN numbers from 2 to 10
 //   - Which part of the example loop do you need to change to do this?
-console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
-for (let i = 2; var evennumbers = 4, 6, 8, 10;  i < evennumbers; i++) {
-  console.log(i);
+console.log('count even numbers from 2 to 10:');
+for (let i = 2; i < 11; i++) {
+  console.log('count even numbers:', i++);//end for
 }
-// initial attempt did not work. confirmed in console. console reads,
-//'unexpected token' " var". review required. 
+
+//updated let and adjusted greater than to 11. added increment to console.console.log
+//confirmed in console.log that even number thru 10. 
 
 // 1.d. (STRETCH) TODO: Write a for loop to do a counddown from 5 to 0
 console.log('STRETCH: countdown from 5 to 0');

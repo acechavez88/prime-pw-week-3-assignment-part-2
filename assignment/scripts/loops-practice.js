@@ -24,11 +24,16 @@ console.log('count from 3 to 5');
 for (let i = 3; i <6; i++) {
   console.log(i);
 }
-// we updated the i variable to equal 3 but less than 5. confirmed in console.
+// we updated the i variable to equal 3 but less than 6. confirmed in console.
 
 // 1.c. TODO: Write a for loop to console.log EVEN numbers from 2 to 10
 //   - Which part of the example loop do you need to change to do this?
 console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
+for (let i = 2; var evennumbers = 4, 6, 8, 10;  i < evennumbers; i++) {
+  console.log(i);
+}
+// initial attempt did not work. confirmed in console. console reads,
+//'unexpected token' " var". review required. 
 
 // 1.d. (STRETCH) TODO: Write a for loop to do a counddown from 5 to 0
 console.log('STRETCH: countdown from 5 to 0');

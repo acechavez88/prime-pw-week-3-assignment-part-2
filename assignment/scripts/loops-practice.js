@@ -30,7 +30,7 @@ for (let i = 3; i <6; i++) {
 //   - Which part of the example loop do you need to change to do this?
 console.log('count even numbers from 2 to 10:');
 for (let i = 2; i < 11; i++) {
-  console.log('count even numbers:', i++);//end for
+  console.log('', i++);//end for
 }
 
 //updated let and adjusted greater than to 11. added increment to console.console.log
@@ -77,7 +77,13 @@ while (i < five) {
   console.log('', (i));
   i++;
 }
-// used a whole loop to count from 0 to 5. changed const. console reads 0 -5. 
+// used a whole loop to count from 0 to 5. changed const. console reads 0 -5.
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
+let ii = 4;
+let ten = 10;
 console.log('count backwards from 10 to 5');
+while (ii < ten) {
+  console.log('', (ten) );
+  ten--;
+}

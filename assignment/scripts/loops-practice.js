@@ -45,11 +45,15 @@ console.log('---- 2. For Of loop ----');
 let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
 for(let i = 0; i < stars.length; i++ ){
   console.log('for loop', stars[i]);
-}// end for stars loop
+}// end for stars loop. confirmed loop in console.log
 
 // 2.a. TODO: Write a for of loop to console.log each star in the 'stars' array
 console.log('Some stars:');
-
+for( set of stars) {
+  console.log('for of loop', stars);
+  if( stars == '4');
+  console.log(set);
+} // end
 
 // 3. While loops
 console.log('---- 3. While loop ----');

@@ -50,9 +50,9 @@ for(let i = 0; i < stars.length; i++ ){
 // 2.a. TODO: Write a for of loop to console.log each star in the 'stars' array
 console.log('Some stars:');
 for( set of stars) {
-  console.log('for of loop');
+  console.log('for of loop', set);
   if( stars == '4');
-  console.log(set);
+  console.log();
 } // end
 
 // 3. While loops
@@ -67,10 +67,17 @@ while (index < max) {
   index++;
 }
 // im thinking this is what the question is asking for? console. log
-//logs each star in array in the console. 
+//logs each star in array in the console.
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
-console.log('count from 0 to 5');
+let i = 0;
+const five = 6;
+console.log('Count from 0 to 5');
+while (i < five) {
+  console.log('', (i));
+  i++;
+}
+// used a whole loop to count from 0 to 5. changed const. console reads 0 -5. 
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');

@@ -50,7 +50,7 @@ for(let i = 0; i < stars.length; i++ ){
 // 2.a. TODO: Write a for of loop to console.log each star in the 'stars' array
 console.log('Some stars:');
 for( set of stars) {
-  console.log('for of loop', stars);
+  console.log('for of loop');
   if( stars == '4');
   console.log(set);
 } // end
@@ -59,7 +59,15 @@ for( set of stars) {
 console.log('---- 3. While loop ----');
 
 // 3.a. TODO: Write a while loop to console.log each star in the 'stars' array
-console.log('Some stars using while:');
+let index =0;
+const max =5;
+
+while (index < max) {
+  console.log('Some stars using while:', stars[index]);
+  index++;
+}
+// im thinking this is what the question is asking for? console. log
+//logs each star in array in the console. 
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
 console.log('count from 0 to 5');

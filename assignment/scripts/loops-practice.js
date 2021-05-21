@@ -34,7 +34,7 @@ for (let i = 2; i < 11; i++) {
 }
 
 //updated let and adjusted greater than to 11. added increment to console.console.log
-//confirmed in console.log that even number thru 10. 
+//confirmed in console.log that even number thru 10.
 
 // 1.d. (STRETCH) TODO: Write a for loop to do a counddown from 5 to 0
 console.log('STRETCH: countdown from 5 to 0');
@@ -43,6 +43,9 @@ console.log('STRETCH: countdown from 5 to 0');
 // 2. For of loops
 console.log('---- 2. For Of loop ----');
 let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
+for(let i = 0; i < stars.length; i++ ){
+  console.log('for loop', stars[i]);
+}// end for stars loop
 
 // 2.a. TODO: Write a for of loop to console.log each star in the 'stars' array
 console.log('Some stars:');

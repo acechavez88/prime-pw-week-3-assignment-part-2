@@ -37,8 +37,11 @@ for (let i = 2; i < 11; i++) {
 //confirmed in console.log that even number thru 10.
 
 // 1.d. (STRETCH) TODO: Write a for loop to do a counddown from 5 to 0
+let array = [0,1,2,3,4,5]
 console.log('STRETCH: countdown from 5 to 0');
-
+for (var i = array.length - 1; i >= 0; i--) {
+  console.log(array[i]);
+}
 
 // 2. For of loops
 console.log('---- 2. For Of loop ----');
@@ -70,13 +73,13 @@ while (index < max) {
 //logs each star in array in the console.
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
-let i = 0;
-const five = 6;
-console.log('Count from 0 to 5');
-while (i < five) {
-  console.log('', (i));
-  i++;
-}
+// let int = 0;
+// const five = 6;
+// console.log('Count from 0 to 5');
+// while (int < five) {
+//   console.log('', (i));
+//   i++;
+// }
 // used a whole loop to count from 0 to 5. changed const. console reads 0 -5.
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5

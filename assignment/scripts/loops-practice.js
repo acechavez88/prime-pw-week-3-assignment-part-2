@@ -73,13 +73,13 @@ while (index < max) {
 //logs each star in array in the console.
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
-// let int = 0;
-// const five = 6;
-// console.log('Count from 0 to 5');
-// while (int < five) {
-//   console.log('', (i));
-//   i++;
-// }
+var i = 0;
+const five = 6;
+console.log('Count from 0 to 5');
+while (i < five) {
+  console.log('', (i));
+  i++;
+}
 // used a whole loop to count from 0 to 5. changed const. console reads 0 -5.
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
